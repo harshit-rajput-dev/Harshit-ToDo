@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(188, 171, 249);
+    font-family: 'Poppins', sans-serif;
+ }
+ .container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 30%;
+    margin-top: 40px;
+ }
+ input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(19, 30, 30);
+    outline: none;
+    font-size: 19px;
+
+
+ }
+ .button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(123, 53, 10);
+   border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 19px;
+ }
+ .button:hover{
+   background-color: blueviolet;
+ }
+ .listcontainer ul{
+    position: relative;
+    color: rgb(14, 6, 6);
+    font-size: 15px;
+    padding: 7px;
+    text-align: left;
+ }
+ .listcontainer ul i{
+    position: absolute;
+   right: 10px;
+    cursor: pointer;
+ }
